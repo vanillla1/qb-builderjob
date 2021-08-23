@@ -7,11 +7,11 @@ Config.Projects = {
         ProjectLocations = {
             ["main"] = {
                 label = "Loc 1",
-                coords = {x = -921.5, y = 378.31, z = 79.5, h = 92.5, r = 1.0},
+                vector4(-921.5, 378.31, 79.5, 92.5),
             },
             ["tasks"] = {
                 [1] = {
-                    coords = {x = -924.28, y = 396.87, z = 79.09, h = 11.5, r = 1.0},
+                    vector4(-924.28, 396.87, 79.09, 11.5),
                     type = "hammer",
                     completed = false,
                     label = "Hammer",
